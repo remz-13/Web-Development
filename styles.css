@@ -81,28 +81,28 @@ nav ul li a:hover {
 
 .skills-section ul {
     list-style: none;
-    display: flex; /* Added to arrange items horizontally */
-    justify-content: center; /* Center the skills horizontally */
-    gap: 20px; /* Add space between items */
+    display: flex; /* Ensures horizontal layout */
+    justify-content: center; /* Centers the items */
+    gap: 20px; /* Space between items */
     padding: 0; /* Remove default padding */
 }
 
 .skills-section li {
     text-align: center; /* Center text below icons */
-    transition: transform 0.3s ease; /* Smooth zoom transition */
+    transition: transform 0.3s ease; /* Smooth transition for zoom */
 }
 
 .skills-section li:hover {
-    transform: scale(1.1); /* Zoom in effect on hover */
+    transform: scale(1.1); 
 }
 
 .skills-section a {
-    text-decoration: none; /* Remove underline from links */
-    color: inherit; /* Inherit color from parent */
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .skills-section img {
-    display: block; /* Center images */
+    display: block; /* Ensure images are centered */
     margin: 0 auto; /* Center images */
 }
 
