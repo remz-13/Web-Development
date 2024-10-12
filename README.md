@@ -1,3 +1,3 @@
-# Web-Development
+# Web-Development 🌐
 
-Just little HTML Documents, etc.
+Projects, Consisting Mainly Of: JavaScript, HTML, CSS.
