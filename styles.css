@@ -1,4 +1,3 @@
-/* Existing styles remain unchanged */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@ body {
     color: #fff;
     line-height: 1.8;
     padding-bottom: 100px;
-    padding-top: 120px; 
+    padding-top: 120px;
 }
 
 header {
@@ -81,33 +80,6 @@ nav ul li a:hover {
 
 .skills-section ul {
     list-style: none;
-    display: flex; /* Ensures horizontal layout */
-    justify-content: center; /* Centers the items */
-    gap: 20px; /* Space between items */
-    padding: 0; /* Remove default padding */
-}
-
-.skills-section li {
-    text-align: center; /* Center text below icons */
-    transition: transform 0.3s ease; /* Smooth transition for zoom */
-}
-
-.skills-section li:hover {
-    transform: scale(1.1); 
-}
-
-.skills-section a {
-    text-decoration: none; 
-    color: inherit; 
-}
-
-.skills-section img {
-    display: block; /* Ensure images are centered */
-    margin: 0 auto; /* Center images */
-}
-
-.skills-section p {
-    margin-top: 5px; /* Space between image and text */
 }
 
 .socials {
@@ -134,7 +106,7 @@ nav ul li a:hover {
     filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.6));
 }
 
-.socials ul li a img:hover {
+socials ul li a img:hover {
     transform: scale(1.2);
     filter: brightness(1.2);
 }
